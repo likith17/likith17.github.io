@@ -126,7 +126,7 @@ const Hero = () => (
     <div className="container">
       <div className="grid">
         <div className="panel">
-          <h1 style={{ fontSize: 'clamp(32px, 5vw, 56px)' }}>Hi, I’m Likith Podalakuru</h1>
+          <h1 style={{ fontSize: 'clamp(32px, 5vw, 56px)' }}>Likith Podalakuru</h1>
           <p className="muted" style={{ maxWidth: 720 }}>
             Graduate Computer Science student at Binghamton University with industry experience delivering
             resilient production systems at Tata Consultancy Services. I thrive at the intersection of
@@ -144,9 +144,9 @@ const Hero = () => (
             the Artificial Intelligence track at Binghamton University.
           </p>
           <div style={{ marginTop: 12 }}>
-            <span className="badge">Machine Learning</span>
-            <span className="badge">AI Systems</span>
-            <span className="badge">Full-stack</span>
+            <span className="badge">AI-driven Decisions</span>
+            <span className="badge">Search Strategies</span>
+            <span className="badge">Real-time Analytics</span>
             <span className="badge">Data Storytelling</span>
           </div>
         </div>
@@ -165,25 +165,54 @@ const About = () => (
       />
       <div className="grid">
         <div className="card hover">
-          <h3>AI-Focused Graduate Student</h3>
+          <h3>Building change that matters</h3>
           <p className="muted">
-            Pursuing an M.S. in Computer Science (Artificial Intelligence track) at Binghamton University,
-            building expertise in machine learning, intelligent systems, and algorithmic design.
+            I grew up wanting to create something revolutionary with technology, inspired by how code can
+            shape the future with just our fingertips. From SRM Valliammai Engineering College to my current
+            M.S. at Binghamton University, every step—projects like a voice-automated vehicle, blockchain
+            verification, and research in AI systems—reflects a drive to deliver solutions that make life
+            better for people and the planet.
+          </p>
+          <p className="muted">
+            Studying in the United States deepens that mission: learning in a diverse environment, mastering
+            scalable data systems, and bringing those insights back to create impact in India and beyond.
           </p>
         </div>
         <div className="card hover">
-          <h3>Systems Engineer Mindset</h3>
+          <h3>Data-first problem solver</h3>
           <p className="muted">
-            Spent three years at Tata Consultancy Services resolving mission-critical issues, optimizing
-            performance, and coordinating cross-functional teams during production incidents.
+            Data feels like the new oil because it’s everywhere, and mathematics has always been my compass
+            for finding its patterns—from fractals in nature to algorithms in code. I leaned into data
+            warehousing, mining, and machine learning electives, sharpened C/C++/Java/Python/DBMS skills, and
+            built projects such as electric-vehicle impact analysis and water quality prediction to turn
+            curiosity into measurable insight.
+          </p>
+          <p className="muted">
+            Workshops with the Computer Society of India and ongoing graduate research keep me exploring
+            cloud, AI, IoT, and analytics so I can translate complex datasets into meaningful stories and
+            decisions.
           </p>
         </div>
         <div className="card hover">
-          <h3>Always Learning</h3>
+          <h3>Adaptable and people-centered</h3>
           <p className="muted">
-            From blockchain research to deep learning surveillance and smart navigation projects, I keep
-            experimenting with new frameworks, datasets, and storytelling formats.
+            As a Level-3 Mainframe Support Executive at Tata Consultancy Services for Marriott International,
+            I became the escalation point for critical incidents—debugging code under pressure, coordinating
+            cross-functional teams, and managing time across global stakeholders. Certifications in Python
+            PCEP, AWS Cloud, and Azure Data Fundamentals reflect how I embrace change to deliver reliable
+            outcomes.
           </p>
+          <div className="muted">
+            <strong>Soft Skills:</strong>
+            <ul style={{ marginTop: 8, paddingLeft: 18, display: 'grid', gap: 4 }}>
+              <li>Active Learner</li>
+              <li>Time Management</li>
+              <li>Work under pressure</li>
+              <li>Critical Thinking</li>
+              <li>Conflict Management</li>
+              <li>Adaptability</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -284,6 +313,15 @@ const Portfolio = () => (
               <span className="badge">Pathfinding</span>
               <span className="badge">Python</span>
             </div>
+            <a
+              className="btn"
+              style={{ marginTop: 10 }}
+              href="https://github.com/likith17/Battleship-AI"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Project
+            </a>
           </div>
           <div className="card hover">
             <strong>Traffic Monitoring &amp; Surveillance</strong>
@@ -296,6 +334,15 @@ const Portfolio = () => (
               <span className="badge">Computer Vision</span>
               <span className="badge">Python</span>
             </div>
+            <a
+              className="btn"
+              style={{ marginTop: 10 }}
+              href="https://github.com/likith17/traffic-monitoring"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Project
+            </a>
           </div>
           <div className="card hover">
             <strong>Prediction of Malevolent Files</strong>
@@ -308,6 +355,15 @@ const Portfolio = () => (
               <span className="badge">Security</span>
               <span className="badge">Scikit-learn</span>
             </div>
+            <a
+              className="btn"
+              style={{ marginTop: 10 }}
+              href="https://github.com/likith17/ml-malware"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Project
+            </a>
           </div>
           <div className="card hover">
             <strong>Impact of Electric Vehicles on the Environment</strong>
@@ -320,6 +376,99 @@ const Portfolio = () => (
               <span className="badge">Visualization</span>
               <span className="badge">Python</span>
             </div>
+            <a
+              className="btn"
+              style={{ marginTop: 10 }}
+              href="https://github.com/likith17/ev-impact"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Project
+            </a>
+          </div>
+          <div className="card hover">
+            <strong>Blockchain Content Verification</strong>
+            <p className="muted">
+              Built blockchain-based proof-of-work verification to secure file integrity and provenance with
+              decentralized validation.
+            </p>
+            <div style={{ marginTop: 8 }}>
+              <span className="badge">Blockchain</span>
+              <span className="badge">Security</span>
+              <span className="badge">Python</span>
+            </div>
+            <a
+              className="btn"
+              style={{ marginTop: 10 }}
+              href="https://github.com/likith17/blockchain-content-verification"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Project
+            </a>
+          </div>
+          <div className="card hover">
+            <strong>Heart Disease Prediction</strong>
+            <p className="muted">
+              Trained models on clinical datasets to predict heart disease risk, balancing feature engineering
+              with model interpretability for actionable health insights.
+            </p>
+            <div style={{ marginTop: 8 }}>
+              <span className="badge">Classification</span>
+              <span className="badge">Healthcare</span>
+              <span className="badge">Python</span>
+            </div>
+            <a
+              className="btn"
+              style={{ marginTop: 10 }}
+              href="https://github.com/likith17/heart-disease-predict"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Project
+            </a>
+          </div>
+          <div className="card hover">
+            <strong>Flower Image Recognition</strong>
+            <p className="muted">
+              Classified flower species using convolutional neural networks, optimizing accuracy through data
+              augmentation and tuned hyperparameters.
+            </p>
+            <div style={{ marginTop: 8 }}>
+              <span className="badge">CNNs</span>
+              <span className="badge">Computer Vision</span>
+              <span className="badge">Python</span>
+            </div>
+            <a
+              className="btn"
+              style={{ marginTop: 10 }}
+              href="https://github.com/likith17/flower-recognition"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Project
+            </a>
+          </div>
+          <div className="card hover">
+            <strong>Hashassin</strong>
+            <p className="muted">
+              Designed a Python hacking simulator that demonstrates hashing concepts, encryption flow, and
+              security awareness through interactive challenges.
+            </p>
+            <div style={{ marginTop: 8 }}>
+              <span className="badge">Security</span>
+              <span className="badge">Education</span>
+              <span className="badge">Python</span>
+            </div>
+            <a
+              className="btn"
+              style={{ marginTop: 10 }}
+              href="https://github.com/likith17/PROJECT-HASHASSIN"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Project
+            </a>
           </div>
         </div>
       </div>
