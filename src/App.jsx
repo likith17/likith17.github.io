@@ -35,11 +35,11 @@ const Nav = ({ onToggleTheme, theme }) => {
           <li className="nav-item">
             <a className="nav-link" href="#about">About</a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className="nav-link" href="#education">Education</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#portfolio">Experience</a>
+          </li> */}
+          <li className="nav-item"> 
+            <a className="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#contact">Contact</a>
@@ -96,12 +96,9 @@ const Nav = ({ onToggleTheme, theme }) => {
               <a className="sheet-link" href="#about" onClick={() => setOpen(false)}>
                 About
               </a>
-              <a className="sheet-link" href="#education" onClick={() => setOpen(false)}>
-                Education
-              </a>
               <a className="sheet-link" href="#portfolio" onClick={() => setOpen(false)}>
-                Experience & Projects
-              </a>
+                Portfolio
+              </a>              
               <a className="sheet-link" href="#contact" onClick={() => setOpen(false)}>
                 Contact
               </a>
@@ -126,7 +123,7 @@ const Hero = () => (
     <div className="container">
       <div className="grid">
         <div className="panel">
-          <h1 style={{ fontSize: 'clamp(32px, 5vw, 56px)' }}>Hi, I’m Likith Podalakuru</h1>
+          <h1 style={{ fontSize: 'clamp(32px, 5vw, 56px)' }}>Likith Podalakuru</h1>
           <p className="muted" style={{ maxWidth: 720 }}>
             Graduate Computer Science student at Binghamton University with industry experience delivering
             resilient production systems at Tata Consultancy Services. I thrive at the intersection of
