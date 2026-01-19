@@ -126,8 +126,8 @@ const Hero = () => (
           <h1 style={{ fontSize: 'clamp(32px, 5vw, 56px)' }}>Likith Podalakuru</h1>
           <p className="muted" style={{ maxWidth: 720 }}>
             Graduate Computer Science student at Binghamton University with industry experience delivering
-            resilient production systems at Tata Consultancy Services. I thrive at the intersection of
-            machine learning, data storytelling, and scalable software.
+            resilient production systems at Tata Consultancy Services and postgraduate AI training from Vellore Institute of Technology. I build at the intersection of
+            machine learning, intelligent systems, and data-driven decision making.
           </p>
           <div style={{ display: 'flex', gap: 12, marginTop: 16 }}>
             <a href="#portfolio" className="btn btn-primary">See Experience</a>
@@ -135,17 +135,14 @@ const Hero = () => (
           </div>
         </div>
         <div className="card hover">
-          <h3>Currently</h3>
+          <div className="card-inner">
+          <h2>Currently</h2>
+          
           <p className="muted">
-            Exploring AI-driven decision making, search strategies, and real-time analytics while pursuing
-            the Artificial Intelligence track at Binghamton University.
+            Working on my final AI-focused project at Binghamton University and exploring full-time opportunities in Data Science, Machine Learning Engineering, and AI-driven systems development.
+I’m currently focused on applying deep learning and computer vision to real-world mobility and analytics challenges.
           </p>
-          <div style={{ marginTop: 12 }}>
-            <span className="badge">AI-driven Decisions</span>
-            <span className="badge">Search Strategies</span>
-            <span className="badge">Real-time Analytics</span>
-            <span className="badge">Data Storytelling</span>
-          </div>
+          </div>          
         </div>
       </div>
     </div>
@@ -157,59 +154,52 @@ const About = () => (
     <div className="container">
       <SectionHeader
         kicker="About"
-        title="Curious, analytical, and driven to build useful AI"
+        title="Curious, analytical, and driven to build intelligent systems that make a real impact"
         sub="I love taking complex problems, grounding them in data, and shipping thoughtful user experiences."
       />
       <div className="grid">
         <div className="card hover">
           <h3>Building change that matters</h3>
           <p className="muted">
-            I grew up wanting to create something revolutionary with technology, inspired by how code can
-            shape the future with just our fingertips. From SRM Valliammai Engineering College to my current
-            M.S. at Binghamton University, every step—projects like a voice-automated vehicle, blockchain
-            verification, and research in AI systems—reflects a drive to deliver solutions that make life
-            better for people and the planet.
+            I’ve always been motivated by the idea that innovation starts small, sometimes with nothing more than curiosity and a keyboard. That motivation led me to choose Computer Science in both high school and undergrad, where I began building projects that explored how tech can improve everyday life. From automation to environmental analytics and mobility-focused AI, I’ve consistently gravitated toward work that combines creativity with real-world purpose.
           </p>
           <p className="muted">
-            Studying in the United States deepens that mission: learning in a diverse environment, mastering
-            scalable data systems, and bringing those insights back to create impact in India and beyond.
-          </p>
+            My projects reflect this purpose. From analyzing electric-vehicle environmental impact to developing
+            a computer vision based traffic monitoring system aimed at smarter, safer mobility.
+          </p>          
         </div>
         <div className="card hover">
           <h3>Data-first problem solver</h3>
           <p className="muted">
-            Data feels like the new oil because it’s everywhere, and mathematics has always been my compass
-            for finding its patterns—from fractals in nature to algorithms in code. I leaned into data
-            warehousing, mining, and machine learning electives, sharpened C/C++/Java/Python/DBMS skills, and
-            built projects such as electric-vehicle impact analysis and water quality prediction to turn
-            curiosity into measurable insight.
+            My interest in data began with a love for mathematics, algorithms, and the patterns found in nature. During my undergraduate years, I chose data-centric electives and explored analytical research. 
           </p>
           <p className="muted">
-            Workshops with the Computer Society of India and ongoing graduate research keep me exploring
-            cloud, AI, IoT, and analytics so I can translate complex datasets into meaningful stories and
-            decisions.
+            Being an active member of the Computer Society of India exposed me to AI, cloud, IoT, and modern technologies. During my time at TCS, I continued strengthening this foundation by completing certifications in Python, cloud platforms, and data-related technologies. Later, my postgraduate studies at VIT further deepened my understanding of machine learning, statistics, and data mining.
           </p>
         </div>
         <div className="card hover">
           <h3>Adaptable and people-centered</h3>
           <p className="muted">
-            As a Level-3 Mainframe Support Executive at Tata Consultancy Services for Marriott International,
-            I became the escalation point for critical incidents—debugging code under pressure, coordinating
-            cross-functional teams, and managing time across global stakeholders. Certifications in Python
-            PCEP, AWS Cloud, and Azure Data Fundamentals reflect how I embrace change to deliver reliable
-            outcomes.
+            At Tata Consultancy Services, I worked as a Level-3 Mainframe Support Engineer for Marriott International, handling critical incidents and collaborating with global teams to ensure seamless system performance. 
+             </p>
+             
+          <p className ="muted">
+          This experience sharpened my ability to learn quickly, solve problems under pressure, and adapt to fast-paced environments. I’m also someone who stays curious, communicates openly, and brings a calm, people-centered mindset to every team. These qualities guide my work in AI and intelligent system development.
           </p>
-          <div className="muted">
-            <strong>Soft Skills:</strong>
-            <ul style={{ marginTop: 8, paddingLeft: 18, display: 'grid', gap: 4 }}>
-              <li>Active Learner</li>
-              <li>Time Management</li>
-              <li>Work under pressure</li>
-              <li>Critical Thinking</li>
-              <li>Conflict Management</li>
-              <li>Adaptability</li>
-            </ul>
-          </div>
+          
+        </div>
+      </div>
+      <div className="card" style={{ marginTop: 12 }}>
+        <div className="muted" style={{ marginBottom: 8 }}>
+          <strong>Soft Skills</strong>
+        </div>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+          <span className="badge">Active Learner</span>
+          <span className="badge">Time Management</span>
+          <span className="badge">Critical Thinking</span>
+          <span className="badge">Adaptability</span>
+          <span className="badge">Working Under Pressure</span>
+          <span className="badge">Conflict Management</span>
         </div>
       </div>
     </div>
@@ -226,7 +216,7 @@ const Education = () => (
             <strong>Binghamton University, State University of New York</strong>
             <span className="muted">Dec 2025 (exp.)</span>
           </div>
-          <p className="muted">M.S. in Computer Science — Artificial Intelligence Track • GPA: 3.22/4.00</p>
+          <p className="muted">M.S. in Computer Science - Artificial Intelligence Track • GPA: 3.22/4.00</p>
           <p>
             Coursework: Machine Learning, AI, Programming for the Web, Algorithms, Programming Languages,
             IoT, System Programming.
@@ -237,10 +227,10 @@ const Education = () => (
             <strong>Vellore Institute of Technology, Bangalore</strong>
             <span className="muted">Aug 2023 – Jun 2024</span>
           </div>
-          <p className="muted">Post-Graduation Certification Program in Artificial Intelligence — GPA: 3.6/4.0</p>
+          <p className="muted">Post-Graduation Certification Program in Artificial Intelligence • GPA: 3.6/4.0</p>
           <p>
             Coursework: Probability &amp; Statistics, DBMS, Data Mining, Big Data Analytics, Data Visualization,
-            Fundamentals of AI, Intro to ML &amp; DL.
+            Fundamentals of AI, Intro to Machine Learning, Intro to Deep Learning.
           </p>
         </div>
         <div className="card line-left hover">
@@ -265,7 +255,7 @@ const Portfolio = () => (
       <SectionHeader
         kicker="Experience"
         title="Industry work, academic projects, and research"
-        sub="A snapshot of the projects and impact areas I’m most proud of."
+        sub="An overview of the projects and impact areas that I've worked on."
       />
 
       {/* Work Experience */}
@@ -472,13 +462,13 @@ const Portfolio = () => (
 
       {/* Publication */}
       <div style={{ marginBottom: 22 }}>
-        <h3 style={{ marginBottom: 10 }}>Publication</h3>
+        <h3 style={{ marginBottom: 10 }}>Publications</h3>
         <div className="card hover">
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 12 }}>
             <strong>“Proof of Work” Generation Using Blockchain</strong>
             <a
               className="btn"
-              href="https://www.ijariie.com/AdminUploadPdf/Proof_of_Work_generation_using_Blockchain_jiip.pdf"
+              href="https://ijariie.com/FormDetails.aspx?MenuScriptId=170337"
               target="_blank"
               rel="noreferrer"
             >
@@ -498,12 +488,16 @@ const Portfolio = () => (
       {/* Leadership & Volunteering */}
       <div style={{ marginBottom: 22 }}>
         <h3 style={{ marginBottom: 10 }}>Leadership &amp; Volunteering</h3>
+        
         <div className="grid">
           <div className="card hover">
             <strong>Red Cross Service Day — MLK Jr. Day of Service</strong>
+            <div style={{ height: 20 }}></div>
             <p className="muted">
+              
               Assisted inventory management and logistics in Endicott, NY to support the American Red Cross’s
-              emergency response readiness.
+              emergency response readiness. Assisted inventory management and logistics during the MLK Jr. Day of Service in Endicott, NY, supporting the American Red Cross’s emergency preparedness efforts. Helped organize supplies, streamline storage workflows, and improve readiness for disaster-response operations.
+
             </p>
             <div style={{ marginTop: 8 }}>
               <span className="badge">Service</span>
@@ -512,13 +506,48 @@ const Portfolio = () => (
           </div>
           <div className="card hover">
             <strong>Technical Events Coordinator — SRM Valliammai College</strong>
+            <div style={{ height: 20 }}></div>
             <p className="muted">
-              Organized department symposiums, managed speaker lineups, and drove student engagement for
-              campus-wide technical events.
+              Organized department symposiums, coordinated speaker lineups, and led campus-wide technical events that improved student engagement. Managed planning, scheduling, and on-ground execution to ensure smooth event flow.
+Collaborated with faculty and student committees, strengthening my leadership, communication, and team-coordination skills while fostering a more active technical culture on campus.
             </p>
             <div style={{ marginTop: 8 }}>
               <span className="badge">Leadership</span>
               <span className="badge">Event Management</span>
+            </div>
+          </div>
+          <div className="card hover">
+            <strong>Athletics Student Representative — Binghamton University Athletics</strong>
+            <div className="muted" style={{ marginTop: 8 }}>May 2025 – Dec 2025 (current)</div>
+            <div style={{ height: 20 }}></div>
+            <p className="muted">
+              Provided crowd management and guest support during major games and events, coordinating with
+              athletics staff to keep entrances, seating, and emergency routes clear. Trained in emergency response protocols to assist safely during high-traffic moments and ensure a
+              positive experience for students, families, and visitors.
+            </p>
+            <p className="muted">
+              
+            </p>
+            <div style={{ marginTop: 8 }}>
+              <span className="badge">Crowd Management</span>
+              <span className="badge">Event Operations</span>
+              <span className="badge">Safety</span>
+            </div>
+            
+          </div>
+          <div className="card hover">
+            <strong>PAL Camp Day of Service — Global Day of Service Project</strong>
+            <div style={{ height: 20 }}></div>
+            <p className="muted">
+              Volunteered at P.A.L. Camp in Binghamton, NY to help create a hiking trail for local kids,
+              supporting outdoor education and safe youth recreation. Cleared trails, prepped sites, and worked with teams to build a nature-friendly space that
+              encourages exploration, confidence, and environmental awareness.
+            </p>
+            
+            <div style={{ marginTop: 8 }}>
+              <span className="badge">Community Service</span>
+              <span className="badge">Outdoors</span>
+              <span className="badge">Youth Support</span>
             </div>
           </div>
         </div>
@@ -535,16 +564,53 @@ const Portfolio = () => (
             </div>
             <div>
               <strong>Frameworks &amp; Libraries:</strong>
-              <p className="muted">TensorFlow, Scikit-learn, Flask, Django, React, Express.js, Apache Spark</p>
+              <p className="muted">TensorFlow, Scikit-learn, Seaborn, Matplotlib, Flask, Django, React, Express.js, Apache Spark</p>
             </div>
             <div>
               <strong>Platforms &amp; Tools:</strong>
               <p className="muted">Docker, Kubernetes, AWS, Azure, Git, Jira, Power BI, Tableau, Hugging Face, MongoDB, MySQL, Linux</p>
             </div>
-            <div>
-              <strong>Certifications:</strong>
-              <p className="muted">AWS Certified Cloud Practitioner, Microsoft Azure Data Fundamentals, PCEP — Python Certified Entry-Level Programmer</p>
-            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div style={{ marginTop: 22 }}>
+        <h3 style={{ marginBottom: 10 }}>Certifications</h3>
+        <div className="grid">
+          <div className="card hover">
+            <strong>AWS Certified Cloud Practitioner</strong>
+            <p className="muted">Foundational knowledge of AWS cloud services, security, and cost management.</p>
+            <a className="btn" style={{ marginTop: 10 }} href="https://www.credly.com/badges/83caabc8-dd22-4dea-adcd-0f15363ffdd7/public_url" target="_blank" rel="noreferrer">
+              View Credential
+            </a>
+          </div>
+          <div className="card hover">
+            <strong>Microsoft Azure Data Fundamentals</strong>
+            <p className="muted">Core data concepts across relational, non-relational, and analytics workloads on Azure.</p>
+            <a className="btn" style={{ marginTop: 10 }} href="https://www.credly.com/badges/656d87cd-8782-4a9f-91ea-c56151784486" target="_blank" rel="noreferrer">
+              View Credential
+            </a>
+          </div>
+          <div className="card hover">
+            <strong>PCEP — Python Certified Entry-Level Programmer</strong>
+            <p className="muted">Validated Python programming fundamentals, data structures, and scripting patterns.</p>
+            <a className="btn" style={{ marginTop: 10 }} href="https://www.credly.com/badges/094a5bb6-9c49-4405-a1b7-286e8650b640/public_url" target="_blank" rel="noreferrer">
+              View Credential
+            </a>
+          </div>
+          <div className="card hover">
+            <strong>Goethe Institute's German Language Certification, Level — B1</strong>
+            <p className="muted">Completed Goethe-Institut German Language Certification up to Level B2.</p>
+            {/* <a className="btn" style={{ marginTop: 10 }} href="#" target="_blank" rel="noreferrer">
+              View Credential
+            </a> */}
+          </div>
+          <div className="card hover">
+            <strong>IELTS — International English Language Testing System</strong>
+            <p className="muted">Achieved an overall IELTS Academic Band 8, demonstrating advanced English proficiency.</p>
+            {/* <a className="btn" style={{ marginTop: 10 }} href="#" target="_blank" rel="noreferrer">
+              View Credential
+            </a> */}
           </div>
         </div>
       </div>
