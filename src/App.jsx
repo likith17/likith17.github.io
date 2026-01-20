@@ -491,7 +491,7 @@ const Portfolio = () => (
         
         <div className="grid">
           <div className="card hover">
-            <strong>Red Cross Service Day — MLK Jr. Day of Service</strong>
+            <strong>Red Cross Service Day - MLK Jr. Day of Service</strong>
             <div style={{ height: 20 }}></div>
             <p className="muted">
               
@@ -505,7 +505,7 @@ const Portfolio = () => (
             </div>
           </div>
           <div className="card hover">
-            <strong>Technical Events Coordinator — SRM Valliammai College</strong>
+            <strong>Technical Events Coordinator, SRM Valliammai College</strong>
             <div style={{ height: 20 }}></div>
             <p className="muted">
               Organized department symposiums, coordinated speaker lineups, and led campus-wide technical events that improved student engagement. Managed planning, scheduling, and on-ground execution to ensure smooth event flow.
@@ -517,7 +517,7 @@ Collaborated with faculty and student committees, strengthening my leadership, c
             </div>
           </div>
           <div className="card hover">
-            <strong>Athletics Student Representative — Binghamton University Athletics</strong>
+            <strong>Athletics Student Representative, Binghamton University Athletics</strong>
             <div className="muted" style={{ marginTop: 8 }}>May 2025 – Dec 2025 (current)</div>
             <div style={{ height: 20 }}></div>
             <p className="muted">
@@ -536,7 +536,7 @@ Collaborated with faculty and student committees, strengthening my leadership, c
             
           </div>
           <div className="card hover">
-            <strong>PAL Camp Day of Service — Global Day of Service Project</strong>
+            <strong>PAL Camp Day of Service, Global Day of Service Project</strong>
             <div style={{ height: 20 }}></div>
             <p className="muted">
               Volunteered at P.A.L. Camp in Binghamton, NY to help create a hiking trail for local kids,
