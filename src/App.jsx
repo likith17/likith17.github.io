@@ -28,7 +28,7 @@ const Nav = ({ onToggleTheme, theme }) => {
   return (
     <div className="nav-wrap">
       <div className="container nav">
-        <a href="#home" className="brand">Likith</a>
+        <a href="#home" className="brand">Likith.</a>
 
         {/* Desktop nav */}
         <ul className="nav-list">
@@ -216,7 +216,7 @@ const Education = () => (
             <strong>Binghamton University, State University of New York</strong>
             <span className="muted">Dec 2025 (exp.)</span>
           </div>
-          <p className="muted">M.S. in Computer Science - Artificial Intelligence Track • GPA: 3.22/4.00</p>
+          <p className="muted">M.S. in Computer Science - Artificial Intelligence Track</p>
           <p>
             Coursework: Machine Learning, AI, Programming for the Web, Algorithms, Programming Languages,
             IoT, System Programming.
@@ -227,7 +227,7 @@ const Education = () => (
             <strong>Vellore Institute of Technology, Bangalore</strong>
             <span className="muted">Aug 2023 – Jun 2024</span>
           </div>
-          <p className="muted">Post-Graduation Certification Program in Artificial Intelligence • GPA: 3.6/4.0</p>
+          <p className="muted">Post-Graduation Certification Program in Artificial Intelligence</p>
           <p>
             Coursework: Probability &amp; Statistics, DBMS, Data Mining, Big Data Analytics, Data Visualization,
             Fundamentals of AI, Intro to Machine Learning, Intro to Deep Learning.
@@ -555,7 +555,7 @@ Collaborated with faculty and student committees, strengthening my leadership, c
 
       {/* Skills */}
       <div>
-        <h3 style={{ marginBottom: 10 }}>Technical Skills &amp; Certifications</h3>
+        <h3 style={{ marginBottom: 10 }}>Technical Skills</h3>
         <div className="card">
           <div style={{ display: 'grid', gap: 14 }}>
             <div>
@@ -592,21 +592,21 @@ Collaborated with faculty and student committees, strengthening my leadership, c
             </a>
           </div>
           <div className="card hover">
-            <strong>PCEP — Python Certified Entry-Level Programmer</strong>
+            <strong>PCEP - Python Certified Entry-Level Programmer</strong>
             <p className="muted">Validated Python programming fundamentals, data structures, and scripting patterns.</p>
             <a className="btn" style={{ marginTop: 10 }} href="https://www.credly.com/badges/094a5bb6-9c49-4405-a1b7-286e8650b640/public_url" target="_blank" rel="noreferrer">
               View Credential
             </a>
           </div>
           <div className="card hover">
-            <strong>Goethe Institute's German Language Certification, Level — B1</strong>
+            <strong>Goethe Institute's German Language Certification, Level : B1</strong>
             <p className="muted">Completed Goethe-Institut German Language Certification up to Level B2.</p>
             {/* <a className="btn" style={{ marginTop: 10 }} href="#" target="_blank" rel="noreferrer">
               View Credential
             </a> */}
           </div>
           <div className="card hover">
-            <strong>IELTS — International English Language Testing System</strong>
+            <strong>IELTS - International English Language Testing System</strong>
             <p className="muted">Achieved an overall IELTS Academic Band 8, demonstrating advanced English proficiency.</p>
             {/* <a className="btn" style={{ marginTop: 10 }} href="#" target="_blank" rel="noreferrer">
               View Credential
