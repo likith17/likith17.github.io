@@ -546,7 +546,17 @@ const Portfolio = () => (
         <h3 style={{ marginBottom: 10 }}>Publications</h3>
         <div className="grid">
           <div className="card hover">
-            <strong>Reinforcement Learning for Autonomous Lunar Landing: A Comparative Analysis of Algorithm Performance</strong>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 12 }}>
+              <strong>Reinforcement Learning for Autonomous Lunar Landing: A Comparative Analysis of Algorithm Performance</strong>
+              <a
+                className="btn"
+                href="https://ieeexplore.ieee.org/document/11307361"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Read
+              </a>
+            </div>
             <p className="muted" style={{ marginTop: 8 }}>iTech SECOM, 2025</p>
             <p>Gottam, D., Podalakuru, L., et al.</p>
           </div>
